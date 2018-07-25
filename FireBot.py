@@ -38,7 +38,10 @@ async def on_message(message):
                                                                   "0 :game_die:",
                                                                   "Ninguno :joy:"]))
 
+    elif message.content.startswith("!secret"):
+        await client.send_message(message.channel, random.choice([]))
+
         
-                                    
+ 
 client.run("your token here")
                                   
