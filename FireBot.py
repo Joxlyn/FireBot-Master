@@ -25,9 +25,20 @@ async def on_message(message):
                                                                   "Dudoso... Kappa :8ball:"]))
 
     elif message.content.startswith("!random number"):
-        await client.send_message(message.channel, random.choice(["1 :game_die:"]))
+        await client.send_message(message.channel, random.choice(["1 :game_die:",
+                                                                  "2 :game_die:",
+                                                                  "3 :game_die:",
+                                                                  "4 :game_die:",
+                                                                  "5 :game_die:",
+                                                                  "6 :game_die:",
+                                                                  "7 :game_die:",
+                                                                  "8 :game_die:",
+                                                                  "9 :game_die:",
+                                                                  "10 :game_die:",
+                                                                  "0 :game_die:",
+                                                                  "Ninguno :joy:"]))
 
         
-                                  
+                                    
 client.run("your token here")
                                   
