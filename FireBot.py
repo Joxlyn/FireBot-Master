@@ -15,6 +15,60 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return
+    elif message.content.startswith("!deposite 1"):
+        await client.send_message(message.channel, random.choice(["Te Faltan 4 monedas! :8ball:",
+                                                                  "No me engañes, te faltan 4 monedas :8ball:",
+                                                                  "Me sobran monedas asi que te dire la respuesta, SI :8ball:",
+                                                                  "Me sobran monedas asi que te dire la respuesta, NO :8ball:"]))
+
+    elif message.content.startswith("!deposite 2"):
+        await client.send_message(message.channel, random.choice(["Te Faltan 3 monedas! :8ball:",
+                                                                  "No me engañes, te faltan 3 monedas :8ball:",
+                                                                  "Me sobran monedas asi que te dire la respuesta, SI :8ball:",
+                                                                  "Me sobran monedas asi que te dire la respuesta, NO :8ball:"]))
+
+    elif message.content.startswith("!deposite 3"):
+        await client.send_message(message.channel, random.choice(["Te Faltan 2 monedas! :8ball:",
+                                                                  "No me engañes, te faltan 2 monedas :8ball:",
+                                                                  "Me sobran monedas asi que te dire la respuesta, SI :8ball:",
+                                                                  "Me sobran monedas asi que te dire la respuesta, NO :8ball:"]))
+
+    elif message.content.startswith("!deposite 4"):
+        await client.send_message(message.channel, random.choice(["Te Falta 1 moneda! :8ball:",
+                                                                  "No me engañes, te falta 1 moneda :8ball:",
+                                                                  "Me sobran monedas asi que te dire la respuesta, SI :8ball:",
+                                                                  "Me sobran monedas asi que te dire la respuesta, NO :8ball:"]))
+
+    elif message.content.startswith("!deposite 5"):
+        await client.send_message(message.channel, random.choice(["Gracias por depositar las 5 monedas! PD: La respuesta es SI :8ball:",
+                                                                  "Gracias por depositar las 5 monedas! PD: La respuesta es NO :8ball:",
+                                                                  "Gracias por depositar las 5 monedas! PD: No se la respuesta :8ball:"]))
+
+    elif message.content.startswith("!deposite 6"):
+        await client.send_message(message.channel, random.choice(["No te voy a regresar cambio! EH! PD: La respuesta es SI :8ball:",
+                                                                  "No te voy a regresar cambio! EH! PD: La respuesta es NO :8ball:",
+                                                                  "No te voy a regresar cambio! EH! PD: No se la respuesta :8ball:"]))
+
+    elif message.content.startswith("!deposite 7"):
+        await client.send_message(message.channel, random.choice(["No te voy a regresar cambio! EH! PD: La respuesta es SI :8ball:",
+                                                                  "No te voy a regresar cambio! EH! PD: La respuesta es NO :8ball:",
+                                                                  "No te voy a regresar cambio! EH! PD: No se la respuesta :8ball:"]))
+
+    elif message.content.startswith("!deposite 8"):
+        await client.send_message(message.channel, random.choice(["No te voy a regresar cambio! EH! PD: La respuesta es SI :8ball:",
+                                                                  "No te voy a regresar cambio! EH! PD: La respuesta es NO :8ball:",
+                                                                  "No te voy a regresar cambio! EH! PD: No se la respuesta :8ball:"]))
+
+    elif message.content.startswith("!deposite 9"):
+        await client.send_message(message.channel, random.choice(["No te voy a regresar cambio! EH! PD: La respuesta es SI :8ball:",
+                                                                  "No te voy a regresar cambio! EH! PD: La respuesta es NO :8ball:",
+                                                                  "No te voy a regresar cambio! EH! PD: No se la respuesta :8ball:"]))
+
+    elif message.content.startswith("!deposite 10"):
+        await client.send_message(message.channel, random.choice(["No te voy a regresar cambio! EH! PD: La respuesta es SI :8ball:",
+                                                                  "No te voy a regresar cambio! EH! PD: La respuesta es NO :8ball:",
+                                                                  "No te voy a regresar cambio! EH! PD: No se la respuesta :8ball:"]))
+                                  
     elif message.content.startswith("!8ball"):
         await client.send_message(message.channel, random.choice(["Nop :8ball:",
                                                                   "Yes :8ball:",
@@ -27,6 +81,7 @@ async def on_message(message):
                                                                   "Las Rosas son rojas, las violetas moradas, Yo no se la respuesta :8ball:",
                                                                   "Emmm, MIRA UNA MOSCA! :8ball:",
                                                                   "Si kvron, ya dejame en paz! :8ball:",
+                                                                  "No kvron, ya dejame en paz! :8ball:",
                                                                   "Kyc y dejame dormir :8ball:",
                                                                   "2 + 2 = 4, 3 + 3 = 6, Tu no sabes cual es mi feis :8ball:",
                                                                   "Mejor dime tu la respuesta :8ball:",
@@ -56,7 +111,32 @@ async def on_message(message):
                                                                   "Si :8ball:",
                                                                   "No :8ball:",
                                                                   "La respuesta es... SI :8ball:",
-                                                                  "La respuesta es... NO :8ball:"]))
+                                                                  "La respuesta es... NO :8ball:",
+                                                                  "Si hubiese un antes despues del mañana del pasado futuristico del presente del mismo momento, ¿Que seguiria despues? :8ball:",
+                                                                  "ZZzzzzz... :8ball:",
+                                                                  "Si me preguntas que @L e w d e o n#6969 es gay, la respuesta es SI :8ball:",
+                                                                  "Si me preguntas que @L e w d e o n#6969 es gay, la respuesta es NO :8ball:",
+                                                                  "Las rosas son rojas, el viento las mueve, yo sere el 6 y tu el 9 :heart: :8ball:",
+                                                                  "La respuesta es SI, PD: !8riotball es una copia de mi :8ball:",
+                                                                  "La respuesta es NO, PD: !8riotball es una copia de mi :8ball:",
+                                                                  "La respuesta es un... Kappa :8ball:",
+                                                                  "Si el de arriba dice la verdad pero el de abajo miente, ¿Quien tiene la razon? :thinking: :8ball:",
+                                                                  "1, 2, 3, 4, 5, 6, 7... CUENTA CONMIGO! :smile: :8ball:",
+                                                                  "40%/60% :8ball:",
+                                                                  "0%/0% :8ball:",
+                                                                  "35%/65% .8ball:",
+                                                                  "No te dire la respuesta por que me caes mal! :8ball:",
+                                                                  "¿Te has preguntado si existe una pregunta sin respuesta?, Oh ESPERA, que si existe y es la que me acabas de decir! :8ball:",
+                                                                  "Si usted me hackeara, conseguira la respuesta! :8ball:",
+                                                                  "CLARO QUE SI! :8ball:",
+                                                                  "CLARO QUE NO! :8ball:",
+                                                                  "Juan clavo un clavo en la calva de un calvito... :8ball:",
+                                                                  "Flareon es... ah perdon, la respuesta es SI :8ball:",
+                                                                  "Flareon es... ah perdon, la respuesta es NO :8ball:",
+                                                                  "**jalandose el ganzo** :8ball:",
+                                                                  "Mejor suscribete a mi canal! :8ball:",
+                                                                  "Si solo hubiese un mañana... ¿Que harias? :8ball:",
+                                                                  "Gracias por perder tu tiempo conmigo! :smile: :8ball:"]))
 
     elif message.content.startswith("!random number"):
         await client.send_message(message.channel, random.choice(["1 :game_die:",
@@ -171,6 +251,9 @@ async def on_message(message):
                                                                   "Mejor usa !random number",
                                                                   "Mejor usa !8ball",
                                                                   "RuhGi es un inactivo"]))
+    elif message.content.startswith("!firehelp"):
+        await client.send_message(message.channel, random.choice(["**!8ball** Responde tus preguntas, **!random number** Genera un numero aleatorio, **!porn** Genera una imagen XXX, **!deposite (numero) (pregunta)** Deposita un numero de monedas para desbloquear una respuesta!"]))
                                   
+                               
 client.run("your token here")
                                   
