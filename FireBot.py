@@ -1,9 +1,3 @@
-import discord
-import asyncio
-import random
-client = discord.Client()
-
-@client.event
 async def on_ready():
     print("Logged in as:")
     print(client.user.name)
@@ -41,7 +35,22 @@ async def on_message(message):
                                                                   "Viaje en el futuro y vi un millon de preguntas y solo en una respondo... SI :8ball:",
                                                                   "Viaje en el futuro y vi un millon de preguntas y solo en una respondo... NO :8ball:",
                                                                   "Mejor vete de aqui :8ball:",
-                                                                  "Hasta que me respondas cuanto es (2/7)(7/389) + 2x^2y^2 ÷ 3 + 7(3.1416 ÷ 3)(6723.95734 ÷ 1236x^8z^2y^4) + 1 , Te dire la respuesta :smile: :8ball:"]))
+                                                                  "Hasta que me respondas cuanto es (2/7)(7/389) + 2x^2y^2 ÷ 3 + 7(3.1416 ÷ 3)(6723.95734 ÷ 1236x^8z^2y^4) + 1 , Te dire la respuesta :smile: :8ball:",
+                                                                  "Si Juan se llevo 10 manzanas pero le dio las 10 a su amigo pero llega su mejor amigo, ¿Que sucedera? :thinking: :8ball:",
+                                                                  "Las rosas son ro... espera, eso ya lo habia dicho... :8ball:",
+                                                                  "Mejor abrazame :8ball:",
+                                                                  "A Jesus no le gusta esto :8ball:",
+                                                                  "A Jesus le gusta esto :8ball:",
+                                                                  "No se a que te refieres con eso... :8ball:",
+                                                                  "No se muy bien tu respuesta, tal vez la respuesta es SI :8ball:",
+                                                                  "No se muy bien tu respuesta, tal vez la respuesta es NO :8ball:",
+                                                                  "No se la respuesta pero deja de usar el pacman pls :8ball:",
+                                                                  "Por favor deposite 5 monedas para obtener la respuesta :8ball:",
+                                                                  "75%/25% :8ball:",
+                                                                  "Si :8ball:",
+                                                                  "No :8ball:",
+                                                                  "La respuesta es... SI :8ball:",
+                                                                  "La respuesta es... NO :8ball:"]))
 
     elif message.content.startswith("!random number"):
         await client.send_message(message.channel, random.choice(["1 :game_die:",
@@ -139,7 +148,23 @@ async def on_message(message):
                                                                   "http://24.media.tumblr.com/08d86921bbaf98a9dc761ce1f21842f1/tumblr_n40jd7qxVe1sjyos5o1_500.gif",
                                                                   "https://raikou1.donmai.us/3b/08/__poko_poko_gunshou_2__3b082ece1c517f8fcad26f55fe6227b6.gif"]))
 
-        
-
+    elif message.content.startswith("!random text"):
+        await client.send_message(message.channel, random.choice(["Eres hermoso!",
+                                                                  "Casate CONMIGO",
+                                                                  "Te odio!",
+                                                                  "Nadie te quiere!",
+                                                                  "Matate!",
+                                                                  "Te amo!",
+                                                                  "¿Quien eres?",
+                                                                  "Hola",
+                                                                  "No me hagas caso, solo soy un bot",
+                                                                  "Flareon is a woman",
+                                                                  "xXFireBlastXx is a men",
+                                                                  "Flareon GDPS esta muriendo",
+                                                                  "Mejor usa !porn",
+                                                                  "Mejor usa !random number",
+                                                                  "Mejor usa !8ball",
+                                                                  "RuhGi es un inactivo"]))
+                                  
 client.run("your token here")
                                   
